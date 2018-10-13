@@ -1,0 +1,131 @@
+body {
+  background: rgba(0,0,0,.9);
+  margin: 0;
+  color: #fff;
+}
+header {
+  height: 40vh;
+  width: 100%;
+  background-image: url(img/header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-content{
+  position:absolute;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  left: 10px;
+}
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+.header-content .logo{
+  width: 150px;
+}
+.header-content .title{
+  font-size: 30px;
+}
+.container{
+  width: 100%;
+  background-color: #fff;
+  color:#000;
+  padding: 1rem 0rem;
+}
+.container .title{
+  font-size: 20px;
+}
+.container .icon1{
+  width: 300px;
+  height: 150px;
+}
+.text-center{
+  text-align: center;
+}
+.grid-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media(max-width: 400px)  {
+  header {
+    height: 40vh;
+    width: 100%;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header-content{
+    position:absolute;
+    left: 50%;
+    margin-left: -100px;
+    width: 200px;
+    height: 200px;
+    top: 5px;
+  }
+  .header-content .logo{
+    width: 100px;
+  }
+  .header-content .title{
+    font-size: 20px;
+  }
+  .container{
+    width: auto;
+    background-color: #fff;
+    color:#000;
+    padding: 0.5rem;
+  }
+  .grid-3{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .icon1{
+    width: 200px;
+    height: 120px;
+  }
+
+}
+@media(max-height: 400px)  {
+  header {
+    height: 40vh;
+    width: 100%;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .header-content{
+    position:absolute;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
+  }
+  .header-content .logo{
+    width: 90px;
+  }
+  .header-content .title{
+    font-size: 20px;
+  }
+  .container{
+    width: auto;
+    background-color: #fff;
+    color:#000;
+    padding: 0.5rem;
+  }
+  .grid-3{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .container .icon1{
+    width: 200px;
+    height: 120px;
+  }
+
+}
