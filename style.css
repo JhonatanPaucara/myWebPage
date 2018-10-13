@@ -90,7 +90,7 @@ header {
 }
 @media(max-height: 560px)  {
   header {
-    height: 30vh;
+    height: 20vh;
     width: 100%;
     background-image: url(img/header.jpg);
     background-size: cover;
