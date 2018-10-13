@@ -50,9 +50,9 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-@media(max-width: 400px)  {
+@media(max-width: 560px)  {
   header {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     background-image: url(img/header.jpg);
     background-size: cover;
@@ -88,9 +88,9 @@ header {
   }
 
 }
-@media(max-height: 400px)  {
+@media(max-height: 560px)  {
   header {
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     background-image: url(img/header.jpg);
     background-size: cover;
