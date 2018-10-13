@@ -13,13 +13,13 @@ header {
 .header-content{
   position:absolute;
   text-align: center;
-  width: 250px;
-  height: 250px;
-  left: 10px;
+  width: 50%;
+  left: 5%;
+  top: 5%;
 }
 .grid-2{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 30% 70%;
   grid-gap: 20px;
   align-items: center;
 }
@@ -60,14 +60,12 @@ header {
   }
   .header-content{
     position:absolute;
-    left: 50%;
-    margin-left: -100px;
-    width: 200px;
-    height: 200px;
-    top: 5px;
+    left: 5%;
+    width: 90%;
+    align-items: center;
   }
   .header-content .logo{
-    width: 100px;
+    width: 100%;
   }
   .header-content .title{
     font-size: 20px;
@@ -84,28 +82,17 @@ header {
   }
   .container .icon1{
     width: 200px;
-    height: 120px;
+    height: 100px;
   }
 
 }
 @media(max-height: 560px)  {
   header {
-    height: 20vh;
+    height: 40vh;
     width: 100%;
     background-image: url(img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-  }
-  .header-content{
-    position:absolute;
-    top: 10px;
-    width: 200px;
-    height: 200px;
-  }
-  .grid-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: baseline;
   }
   .header-content .logo{
     width: 90px;
