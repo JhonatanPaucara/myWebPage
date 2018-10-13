@@ -50,7 +50,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
-@media(max-width: 560px)  {
+@media(max-width: 720px)  {
   header {
     height: 30vh;
     width: 100%;
@@ -95,7 +95,7 @@ header {
     background-repeat: no-repeat;
   }
   .header-content .logo{
-    width: 90px;
+    width: 100px;
   }
   .header-content .title{
     font-size: 20px;
