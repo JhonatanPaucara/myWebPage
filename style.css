@@ -55,7 +55,8 @@ header .header-content{
   header .header-content{
     position:absolute;
     width: 90%;
-    height: 40vh;
+    height: 30vh;
+    top: 1vh;
     left: 5%;
   }
   .grid-2{
@@ -66,7 +67,7 @@ header .header-content{
     vertical-align: middle;
   }
   .header-content .logo{
-    height: 20vh;
+    height: 15vh;
   }
   .header-content .title{
     font-size: 18px;
